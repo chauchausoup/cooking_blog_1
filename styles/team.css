@@ -1,0 +1,42 @@
+.team{
+    height: 100vh;
+    display: grid;
+    align-content:  center;
+    justify-items: center;
+    padding: 40px;
+}
+.team-headline{
+    font-size: 2rem;
+}
+
+.team-btn{
+    margin: 20px;
+    background: var(--navbar-bg);
+    border: 2px black solid;
+    padding: 0 10px;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    
+    grid-column-gap: 40px;
+}
+
+.teamHead{
+    font-size: 2rem;
+    text-align: center;
+}
+.teamDetails{
+    text-align: center;
+}
+.fa-connectdevelop,.fa-fort-awesome{
+    
+    padding: 25px;
+    
+}
+.team1,.team2{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}

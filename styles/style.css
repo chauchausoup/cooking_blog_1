@@ -1,0 +1,47 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --header-bg-color:#D3D3D3;
+    --navbar-bg:rgb(128,128,128,0.9) ;
+    --light-text:#ffffff;
+    
+}
+#logo-png-header{
+    max-height: 100px;
+}
+#logo-png-footer{
+    max-height: 50px;
+}
+
+
+
+
+.aim{
+    height: 100vh;
+    display: grid;
+    align-content:  center;
+    justify-items: center;
+    padding: 40px;
+}
+.aim-headline{
+    font-size: 2rem;
+}
+.aim .aim-headline{
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    background-color: var(--navbar-bg);
+    
+    grid-template-columns:  1fr;
+    align-items: center;
+    justify-items: center;
+    
+}

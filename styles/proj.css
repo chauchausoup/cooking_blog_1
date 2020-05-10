@@ -1,0 +1,23 @@
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-column-gap: 20px;
+    margin: 20px;
+    
+}
+
+
+
+
+.project1,.project2,.project3,.project4{
+    text-align: center;
+   
+    
+    
+    
+}
+.img-proj{
+    height:150px;
+    padding: 20px;
+    
+}
